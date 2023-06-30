@@ -35,6 +35,17 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  firebase_core: ^2.14.0
+  firebase_core_platform_interface: ^4.8.0
+  cloud_firestore: ^4.8.2
+  firebase_storage: ^11.2.4
+  rive: ^0.11.4
+  qr_code_scanner: ^1.0.1
+  path_provider: ^2.0.15
+  share_plus: ^7.0.2
+  qr_flutter: ^4.1.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
 
 dev_dependencies:
   flutter_test:
@@ -74,17 +85,19 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
+  fonts:
+    - family: YsabeauOffice
+      fonts:
+        - asset: assets/fonts/YsabeauOffice/YsabeauOffice-Regular.ttf
+        - asset: assets/fonts/YsabeauOffice/YsabeauOffice-Light.ttf
+          weight: 300
+        - asset: assets/fonts/YsabeauOffice/YsabeauOffice-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/YsabeauOffice/YsabeauOffice-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/YsabeauOffice/YsabeauOffice-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/YsabeauOffice/YsabeauOffice-ExtraBold.ttf
+          weight: 800
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
